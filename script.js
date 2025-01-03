@@ -59,3 +59,15 @@ addTaskButton.addEventListener('click', () => {
 deleteButton.addEventListener('click', () => {
     updateTaskCounter();
 });
+
+
+const clearAllButton = document.createElement('button');
+clearAllButton.textContent = 'Clear All';
+clearAllButton.style.marginTop = '10px';
+() => {
+    // Clear the task list HTML content.
+    taskList.innerHTML = '';
+    // Update the task counter display.
+    updateTaskCounter();
+}
+document.querySelector('.container').appendChild(clearAllButton);
