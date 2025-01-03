@@ -34,3 +34,11 @@ const taskList = document.getElementById('task-list');
     // Toggle strikethrough on task item
     taskItem.style.textDecoration = taskItem.style.textDecoration === 'line-through' ? '' : 'line-through';
 }
+
+const clearTasksButton = document.createElement('button');
+clearTasksButton.textContent = 'Clear All';
+() => {
+    // Clear the task list HTML content
+    taskList.innerHTML = '';
+  }
+document.querySelector('.container').appendChild(clearTasksButton);
