@@ -87,3 +87,23 @@ h1 { /* sets margin below headings */
     /* Justify content to space between */
     justify-content: space-between;
 }
+
+button {
+    /* Set button background color to red */
+    background-color: #dc3545;
+    /* Set button text color to white */
+    color: white;
+    /* Remove button border */
+    border: none;
+    /* Add border radius for rounded corners */
+    border-radius: 5px;
+    /* Set button padding */
+    padding: 5px 10px;
+    /* Change cursor shape on hover */
+    cursor: pointer;
+}
+/* Change background color on hover event */
+button:hover {
+    /* Set background color to deep red */
+    background-color: #c82333;
+}
