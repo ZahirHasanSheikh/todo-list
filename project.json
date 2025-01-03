@@ -1,0 +1,14 @@
+{
+    "name": "To-Do List",
+    "version": "1.0.0",
+    "description": "A simple To-Do List application.",
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ZahirHasanSheikh/todo-list.git"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
