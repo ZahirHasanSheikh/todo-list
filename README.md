@@ -1,4 +1,3 @@
-# todo-list
 # To-Do List Application
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -75,5 +74,6 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-```vbnet
+
 Simply copy and paste this text into your Visual Studio editor in a file named `README.md`, and you're all set!
+
