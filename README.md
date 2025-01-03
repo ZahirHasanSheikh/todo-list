@@ -45,3 +45,12 @@ To run this application locally, follow these steps:
    ```bash
    open index.html
 
+No server or database setup is required for this project, as it uses local storage to manage tasks.
+
+##Usage
+
+-Open the index.html file in your browser.
+-Use the input fields to add new tasks with a title and description.
+-Click the "Add Task" button to add the task to the list.
+-To mark a task as completed, click the checkmark next to the task.
+-To delete a task, click the "Delete" button next to it.
