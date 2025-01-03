@@ -1,0 +1,89 @@
+body {
+    /* Set font to Arial, sans-serif */
+    font-family: Arial, sans-serif;
+    /* Make body a flex container */
+    display: flex;
+    /* Center content horizontally */
+    justify-content: center;
+    /* Center content vertically */
+    align-items: center;
+    /* Set body height to viewport height */
+    height: 100vh;
+    /* Remove default margin */
+    margin: 0;
+    /* Set background color to light gray */
+    background-color: #f0f0f0;
+}
+
+.container {
+    /* sets background color to white */
+    background: white;
+    /* adds padding to the container */
+    padding: 20px;
+    /* sets border radius to 10px */
+    border-radius: 10px;
+    /* adds box shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* centers text horizontally */
+    text-align: center;
+    /* sets container width to 300px */
+    width: 300px;
+}
+
+h1 { /* sets margin below headings */ 
+    margin-bottom: 20px; 
+}
+
+#task-input {
+    /* Set width to 80% of parent element */
+    width: 80%;
+    /* Add padding of 10px */
+    padding: 10px;
+    /* Add margin bottom of 10px */
+    margin-bottom: 10px;
+    /* Add border with 1px solid gray color */
+    border: 1px solid #ccc;
+    /* Add border radius of 5px */
+    border-radius: 5px;
+}
+
+#add-task {
+    /* Add padding to the button */
+    padding: 10px 20px;
+    /* Remove default button border */
+    border: none;
+    /* Set the button background color */
+    background-color: #28a745;
+    /* Set text color to white */
+    color: white;
+    /* Change mouse cursor to a pointer */
+    cursor: pointer;
+    /* Add rounded corners to the button */
+    border-radius: 5px;
+}
+
+#task-list {
+    /* Remove default list style */
+    list-style: none;
+    /* Remove default list padding */
+    padding: 0;
+    /* Add top margin */
+    margin-top: 20px;
+}
+
+#task-list li {
+    /* Add padding to each task list item */
+    padding: 10px;
+    /* Add margin between task list items */
+    margin-bottom: 5px;
+    /* Set background color of task list item */
+    background: #f9f9f9;
+    /* Add border to task list item */
+    border: 1px solid #ccc;
+    /* Add rounded corners to task list item */
+    border-radius: 5px;
+    /* Display task list item as flex container */
+    display: flex;
+    /* Justify content to space between */
+    justify-content: space-between;
+}
