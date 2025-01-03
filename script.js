@@ -60,7 +60,6 @@ deleteButton.addEventListener('click', () => {
     updateTaskCounter();
 });
 
-
 const clearAllButton = document.createElement('button');
 clearAllButton.textContent = 'Clear All';
 clearAllButton.style.marginTop = '10px';
@@ -71,3 +70,34 @@ clearAllButton.style.marginTop = '10px';
     updateTaskCounter();
 }
 document.querySelector('.container').appendChild(clearAllButton);
+
+() => {
+    // Get trimmed task text from input field
+    const taskText = taskInput.value.trim();
+    if (taskText) {
+        // Create new list item element
+        const taskItem = document.createElement('li');
+        const timestamp = new Date().toLocaleString();
+        // Set task text with timestamp
+        taskItem.textContent = `${taskText} (Added on: ${timestamp})`;
+
+        // Create delete button element
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Delete';
+        // Add event listener to delete button
+        deleteButton.addEventListener('click', () => {
+            // Remove task item from list
+            taskList.removeChild(taskItem);
+            // Update task counter
+            updateTaskCounter();
+        });
+        // Add delete button to task item
+        taskItem.appendChild(deleteButton);
+        // Add task item to task list
+        taskList.appendChild(taskItem);
+        // Clear input field
+        taskInput.value = '';
+        // Update task counter
+        updateTaskCounter();
+    }
+}
