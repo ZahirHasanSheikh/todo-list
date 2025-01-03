@@ -101,3 +101,8 @@ document.querySelector('.container').appendChild(clearAllButton);
         updateTaskCounter();
     }
 }
+
+() => {
+    // Toggle task item background color on click
+    taskItem.style.backgroundColor = taskItem.style.backgroundColor === 'lightblue' ? '' : 'lightblue';
+}
