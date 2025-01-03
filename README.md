@@ -47,16 +47,26 @@ To run this application locally, follow these steps:
 
 No server or database setup is required for this project, as it uses local storage to manage tasks.
 
-##Usage
+## Usage
 
-- Open the index.html file in your browser.
-- Use the input fields to add new tasks with a title and description.
-- Click the "Add Task" button to add the task to the list.
-- To mark a task as completed, click the checkmark next to the task.
-- To delete a task, click the "Delete" button next to it.
+1. Open the index.html file in your browser.
+2. Use the input fields to add new tasks with a title and description.
+3. Click the "Add Task" button to add the task to the list.
+4. To mark a task as completed, click the checkmark next to the task.
+5. To delete a task, click the "Delete" button next to it.
 
-##Technology Stack
+## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Storage**: Local Storage (browser-based)
 - **Deployment**: Static (can be deployed on any static web hosting service)
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a pull request.
+
