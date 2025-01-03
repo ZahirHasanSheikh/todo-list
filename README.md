@@ -62,6 +62,7 @@ No server or database setup is required for this project, as it uses local stora
 - **Deployment**: Static (can be deployed on any static web hosting service)
 
 ## Contributing
+
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository.
@@ -70,3 +71,9 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch (git push origin feature-branch).
 5. Create a pull request.
 
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+    ```vbnet
+    Simply copy and paste this text into your Visual Studio editor in a file named `README.md`, and you're all set!
