@@ -106,3 +106,12 @@ document.querySelector('.container').appendChild(clearAllButton);
     // Toggle task item background color on click
     taskItem.style.backgroundColor = taskItem.style.backgroundColor === 'lightblue' ? '' : 'lightblue';
 }
+
+addTaskButton.addEventListener('click', () => {
+    const taskText = taskInput.value.trim();
+    if (!taskText) {
+        alert('Task cannot be empty!');
+        return;
+    }
+    // Existing task addition code
+});
