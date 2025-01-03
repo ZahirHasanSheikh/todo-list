@@ -42,5 +42,6 @@ To run this application locally, follow these steps:
    cd todo-list
 
 2. Open the index.html file in your browser to view the application:
-open index.html
+   ```bash
+   open index.html
 
