@@ -42,3 +42,20 @@ clearTasksButton.textContent = 'Clear All';
     taskList.innerHTML = '';
   }
 document.querySelector('.container').appendChild(clearTasksButton);
+
+
+const taskCounter = document.createElement('p');
+taskCounter.textContent = 'Tasks: 0';
+document.querySelector('.container').appendChild(taskCounter);
+
+function updateTaskCounter() {
+    taskCounter.textContent = `Tasks: ${taskList.children.length}`;
+}
+
+addTaskButton.addEventListener('click', () => {
+    updateTaskCounter();
+});
+
+deleteButton.addEventListener('click', () => {
+    updateTaskCounter();
+});
